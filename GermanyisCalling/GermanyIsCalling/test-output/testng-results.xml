@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T15:20:41 IST" name="Default suite" finished-at="2024-09-11T15:20:52 IST" duration-ms="11102">
+    <groups>
+    </groups>
+    <test started-at="2024-09-11T15:20:41 IST" name="Default test" finished-at="2024-09-11T15:20:52 IST" duration-ms="11102">
+      <class name="TestLoginFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:41 IST" name="setUp" finished-at="2024-09-11T15:20:43 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testvalidCredentials()[pri:1, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:43 IST" name="testvalidCredentials" finished-at="2024-09-11T15:20:48 IST" duration-ms="4912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidCredentials -->
+        <test-method signature="testInvalidPassword()[pri:2, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:48 IST" name="testInvalidPassword" finished-at="2024-09-11T15:20:49 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method signature="testInvalidEmail()[pri:3, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:49 IST" name="testInvalidEmail" finished-at="2024-09-11T15:20:50 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmail -->
+        <test-method signature="testBothInvalidCredentials()[pri:4, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:50 IST" name="testBothInvalidCredentials" finished-at="2024-09-11T15:20:51 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBothInvalidCredentials -->
+        <test-method signature="testEmptyEmail()[pri:5, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:51 IST" name="testEmptyEmail" finished-at="2024-09-11T15:20:51 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyEmail -->
+        <test-method signature="testEmptyPassword()[pri:6, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:51 IST" name="testEmptyPassword" finished-at="2024-09-11T15:20:52 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method signature="testBothEmptyFields()[pri:7, instance:TestLoginFunctionality@5c86dbc5]" started-at="2024-09-11T15:20:52 IST" name="testBothEmptyFields" finished-at="2024-09-11T15:20:52 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBothEmptyFields -->
+      </class> <!-- TestLoginFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
